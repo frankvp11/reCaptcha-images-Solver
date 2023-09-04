@@ -18,12 +18,7 @@ def send_data():
     value = solver.complete()
     
     return value
-   
 
-@app.route('/receive')
-def receive_data():
-    # Send some data back to the client
-    return 'token: tokennsnsfeinwfwoh'
 
 if __name__ == '__main__':
     app.run()
